@@ -21,8 +21,8 @@ Here are some ideas to get you started:
 - JS
 
 # In Class Assignments
-- ICA1
-- ICA2
+- [ICA1](/ica/ica1.pdf)
+- [ICA2](/ica/ica2.pdf)
 - ICA3
 - ICA4
 - ICA5
