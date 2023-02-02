@@ -23,7 +23,8 @@ Here are some ideas to get you started:
 # In Class Assignments
 - [ICA1](/ica/ica1.pdf)
 - [ICA2](/ica/ica2.pdf)
-- ICA3
+- [ICA3A](/ica/ica3a.html)
+- [ICA3B] (/ica/ica3b.html)
 - ICA4
 - ICA5
 - ICA6
