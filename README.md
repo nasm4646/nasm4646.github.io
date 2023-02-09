@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 - [ICA2](/ica/ica2.pdf)
 - [ICA3A](/ica/ica3a.html)
 - [ICA3B](/ica/ica3b.html)
-- ICA4
+- [ICA4](/ica/ica4.html)
 - ICA5
 - ICA6
 - ICA7
@@ -41,7 +41,7 @@ Here are some ideas to get you started:
 # Weekly Assignments
 - [WA1](/wa/wa1.html)
 - [WA2](/wa/wa2.html)
-- WA3
+- [WA3](/wa/wa3.html)
 - WA4
 - WA5
 - WA6
