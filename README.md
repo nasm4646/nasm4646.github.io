@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 # Projects
-- HTML
+- [HTML](/html-midterm/page5.html)
 - CSS
 - JS
 
@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 - [ICA3A](/ica/ica3a.html)
 - [ICA3B](/ica/ica3b.html)
 - [ICA4](/ica/ica4.html)
-- ICA5
+- [ICA5](/ica/ica5/ica5.html)
 - ICA6
 - ICA7
 - ICA8
