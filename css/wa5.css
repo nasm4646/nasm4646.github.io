@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 64px;
+}
+
+#mybackground {
+    min-height: 100%;
+    min-width: 100%;
+
+}
+
+#logo {
+    height: 150px;
+
+}
+
+#overlay1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    background-color: black;
+    border-color: white;
+
+    width: 400px;
+    height: 200px;
+    border: 15px solid grey;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 15px 50px 30px;
+    text-align: center;
+}
+
+
+#overlay12 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 400px;
+    height: 200px;
+    border: 15px solid red;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 15px 50px 30px;
+    text-align: center;
+}
+
+#overlay2 {
+    color: white;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+
+}
