@@ -43,7 +43,7 @@ Here are some ideas to get you started:
 - [WA2](/wa/wa2.html)
 - [WA3](/wa/wa3.html)
 - [WA4](/wa/wa4.html)
-- WA5
+- [WA5](/wa/wa5.html)
 - WA6
 - WA7
 - WA8
