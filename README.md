@@ -27,7 +27,7 @@ Here are some ideas to get you started:
 - [ICA3B](/ica/ica3b.html)
 - [ICA4](/ica/ica4.html)
 - [ICA5](/ica/ica5/ica5.html)
-- ICA6
+- [ICA6](/ica/ica6/ica6-part1.html)
 - ICA7
 - ICA8
 - ICA9
