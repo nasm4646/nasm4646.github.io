@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 # Projects
 - [HTML](/html-midterm/page5.html)
-- CSS
+- [CSS](/index.html)
 - JS
 
 # In Class Assignments
