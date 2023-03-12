@@ -7,6 +7,10 @@ body {
   font: 1.2em / 1.2 Lucida, Courier, monospace;
 }
 
+h3 {
+  font-size: 22px;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -26,6 +30,7 @@ img {
   margin: 0 auto;
   max-width: 80%;
 
+
 /* CSS gradient animation  from https://codepen.io/P1N2O/pen/pyBNzX by Manuel Pinto */
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -42,8 +47,10 @@ img {
     100% {
       background-position: 0% 50%;
     }
-  }
+
 /* End CSS gradient animation */
+
+  }
 
 .grid {
   margin: 0 auto;
@@ -54,7 +61,7 @@ nav {
   background-color: white;
   padding: .5em;
 }
-  
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -77,8 +84,8 @@ nav a {
   width: 200px;
 }
 
-/* screens larger than 500px */
-@media screen and (min-width: 500px) {
+/* screens larger than 400px */
+@media screen and (min-width: 400px) {
 
   .grid {
     display: flex;
@@ -118,8 +125,16 @@ nav a {
   }
 }
 
-/* screens smaller than 500px */
-@media screen and (max-width: 500px) {
+/* screens smaller than 1000px but larger than 400px*/
+@media screen and (max-width: 1000px) {
+
+  .photos {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* screens smaller than 400px */
+@media screen and (max-width: 400px) {
 
   nav a, nav ul {
     display: flex;
