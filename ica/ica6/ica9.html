@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICA9</title>
+
+    <style>
+        #button {
+            border: 10px solid darkmagenta;
+            border-radius: 20px;
+            background-color: pink;
+            padding: 25px 50px;
+            width: 250px;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        #riddle {
+            border: 10px solid black;
+            border-radius: 10px;
+            background-color: black;
+            padding: 25px 50px;
+            width: 200px;
+            height: 100px;
+        }
+      
+    </style>
+
+</head>
+<body>
+    <div id="button">
+        <p>Click me!</p>
+    </div>
+
+    <br><br>
+
+    <div class = form>
+        <label for ="guessField">Enter a number to try and guess the rule: </label>
+        <input type="number" min="1" max="100" required id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <br><br>
+
+    <div id="riddle">
+        <p>I am easy to lift, but hard to throw. What am I?</p>
+    </div>
+
+    <br><br>
+
+        <img src="/wa/img/swimming.jpg" id="firstImage" width="200" height="150">
+        <br>
+        <input type="button" onclick="changeImage()" value="Change"/>    
+
+    <script>
+
+    // Button
+
+        console.log("Hello, World!");
+        let btn = document.querySelector("#button");
+        // console.log(button);
+
+        function changeBtn() {
+            // console.log("This worked!");
+            btn.textContent = "Ouch!";
+            btn.style.backgroundColor = "red";
+            btn.style.border = "2px solid magenta";
+            btn.style.color = "white"
+        }
+
+        btn.addEventListener('click', changeBtn);
+
+    // Number Guesser
+
+        function checkGuess() {
+            //alert('I am a placeholder');
+            //alert(userGuess.value);
+            let value = userGuess.value * 2
+            alert(value);
+        }
+
+    // Riddle
+
+        let btn2 = document.querySelector("#riddle");
+            // console.log(button);
+
+            function changeBtn2() {
+                // console.log("This worked!");
+                btn2.textContent = "A feather!";
+                btn2.style.backgroundColor = "white";
+                btn2.style.border = "2px solid magenta";
+                btn2.style.color = "black"
+            }
+
+            btn2.addEventListener('click', changeBtn2);
+
+    // Image
+
+    function changeImage() {
+            var image = document.getElementById('firstImage');
+            if (image.src.match("/wa/img/maned-wolf.jpg")) {
+                image.src = "/wa/img/swimming1.jpg";
+            }
+            else {
+                image.src = "/wa/img/maned-wolf.jpg";
+            }
+        }
+
+    // Number Guesser 2
+
+        let guessBtn = document.querySelector(".guessSubmit");
+        let userGuess = document.querySelector(".guessField");
+        // console.log(guessBtn);
+        guessBtn.addEventListener('click', checkGuess);
+
+    </script>
+</body>
+</html>
