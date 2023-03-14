@@ -54,9 +54,9 @@
 
     <br><br>
 
-        <img src="/wa/img/swimming.jpg" id="firstImage" width="200" height="150">
+        <img src="/wa/img/swimming.jpg" id="firstImage" width="300" height="225">
         <br>
-        <input type="button" onclick="changeImage()" value="Change"/>    
+        <input type="button" onclick="changeImage()" value="Click to change!"/>
 
     <script>
 
@@ -104,7 +104,8 @@
 
     function changeImage() {
             var image = document.getElementById('firstImage');
-            if (image.src.match("/wa/img/maned-wolf.jpg")) {
+            if (image.src.match("/wa/img/maned-wolf.jpg")) 
+            {
                 image.src = "/wa/img/swimming1.jpg";
             }
             else {
