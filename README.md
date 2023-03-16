@@ -30,7 +30,7 @@ Here are some ideas to get you started:
 - [ICA6](/ica/ica6/ica6-part1.html)
 - [ICA7](/ica/ica7/ica7.html)
 - ICA8
-- ICA9
+- [ICA9](/ica/ica9.html)
 - ICA10
 - ICA11
 - ICA12
@@ -47,7 +47,7 @@ Here are some ideas to get you started:
 - [WA6](/wa/wa6/index.html)
 - [WA7](/wa/wa7/wa7.html)
 - WA8
-- WA9
+- [WA9](/wa/wa9/index.html)
 - WA10
 - WA11
 - WA12
