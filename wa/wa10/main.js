@@ -18,7 +18,7 @@ const alts = {
 }
 
 
-/* Looping through images */
+/* Looping through images */ 
 /* In each loop iteration, replace the xxx placeholder values with a 
 string that will equal the path to the image and alt attributes in each case. */
 
