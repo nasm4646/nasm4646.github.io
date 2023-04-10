@@ -49,7 +49,7 @@ Here are some ideas to get you started:
 - WA8
 - [WA9](/wa/wa9/index.html)
 - [WA10](wa/wa10/assignment10.html)
-- WA11
+- [WA11](wa/wa11/wa11.html)
 - WA12
 - WA13
 - WA14
