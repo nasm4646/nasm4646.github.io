@@ -1,0 +1,185 @@
+/* some html & css taken and edited from the Layout Task, https://nasm4646.github.io/wa/wa6/index.html */
+
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Lucida, Courier, monospace;
+  }
+  
+  h3 {
+    font-size: 22px;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .logo {
+    font-size: 200%;
+    padding: 10px 20px;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+
+  .output {
+    font-weight: bold;
+  }
+
+  .output2 {
+    font-weight: bold;
+  }
+
+  .output3 {
+    font-weight: bold;
+    color: red
+  }
+
+  .random-button {
+    font-size: 100%;
+    font: 1.2em / 1.2 Lucida, Courier, monospace;
+  }
+
+  .option-one-button {
+    font-size: 100%;
+    font: 1.2em / 1.2 Lucida, Courier, monospace;
+  }
+
+  .option-two-button {
+    font-size: 100%;
+    font: 1.2em / 1.2 Lucida, Courier, monospace;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #fff;
+    padding: 16px 16px;
+    margin: 0 auto;
+    max-width: 80%;
+  
+  
+  /* CSS gradient animation  from https://codepen.io/P1N2O/pen/pyBNzX by Manuel Pinto */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+  
+  /* End CSS gradient animation */
+  
+    }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  nav {
+    background-color: white;
+    padding: .5em;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .feature {
+    width: 200px;
+  }
+  
+  /* screens larger than 400px */
+  @media screen and (min-width: 400px) {
+  
+    .grid {
+      display: flex;
+      gap: 40px;
+      max-width: 80%;
+    }
+  
+    article {
+      flex: 70%;
+    }
+  
+    aside {
+      flex: 30%;
+    }
+    
+    nav {
+      position: sticky;
+      top: 0;
+    }
+    
+    nav ul {
+      display: flex;
+      flex-flow: row wrap;  
+      align-items: center;
+      justify-content: space-around;  
+    }
+    
+    .photos {
+      display: grid;
+      gap: 40px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  
+    .feature {
+        float: left;
+        padding: 0 20px 20px 20px;
+    }
+  }
+  
+  /* screens smaller than 1000px but larger than 400px*/
+  @media screen and (max-width: 1000px) {
+  
+    .photos {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  
+  /* screens smaller than 400px */
+  @media screen and (max-width: 400px) {
+  
+    nav a, nav ul {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .grid {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    nav {
+      position: static;
+    }
+  
+    .photos {
+      display: flex;
+      flex-direction: column;
+    }
+  }
