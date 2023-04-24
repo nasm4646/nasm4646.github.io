@@ -51,6 +51,6 @@ Here are some ideas to get you started:
 - [WA10](wa/wa10/assignment10.html)
 - [WA11](wa/wa11/wa11.html)
 - [WA12](wa/wa12/wa12.html)
-- WA13
+- [WA13](wa/wa13%20copy/wa13copy.html)
 - WA14
 - WA15
